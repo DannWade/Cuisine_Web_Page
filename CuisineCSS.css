@@ -1,0 +1,158 @@
+/* main styles */
+nav>*{
+    float:left;
+    margin: 0 10%;
+}
+
+ul{
+    width: 35%;
+    margin: 0 1%;
+    float: right;
+}
+ul > li{
+    float:left;
+    margin: 0 1%;
+    list-style: none;
+}
+
+ul > li a{
+    text-decoration: none;
+}
+main>*:not(nav){
+    clear: both;
+}
+
+nav{
+    height: 50px;
+}
+
+h1{
+    width: 20%;
+}
+main{
+    height: 400px;
+    background-image: url(http://placekitten.com/g/1270/400);
+}
+
+form + ul{
+    float: left;
+    width: 20%;
+    padding: 0%;
+    margin-top: 3%;
+}
+
+
+form>input{
+    width:40%;
+    height: 20px;
+}
+
+form>button{
+    width: 10%;
+    height:20px
+}
+
+/* first section */
+
+body > main+section > section{
+    float: left;
+    margin: 5% 20% 10% 50%;
+}
+
+body>main+section{
+    height: 450px;
+    background-image: url(http://placekitten.com/g/1270/450);
+}
+
+/* second section */
+main + section + section{
+    text-align: center;
+    height: 300px;
+}
+
+main+section+section > *{
+    clear: both;
+}
+
+main+section+section ul{
+    float: none;
+    margin: 0 30%;
+    width: 100%;
+}
+
+main+section+section ul li{
+    float: left;
+    margin-bottom: 5%;
+}
+
+main+section+section section img{
+    float: left;
+    width: 25%;
+}
+
+
+/* third sectio */
+main+section+section+section{
+    clear:both;
+    text-align: center;
+    height: 600px;
+    /* background-image: url(http://placekitten.com/g/1270/400); */
+}
+
+main+section+section+section>*{
+    float: none;
+    clear: both;
+}
+
+main+section+section+section>section section{
+    float: right;
+    margin: 4%;
+}
+
+main+section+section+section>section{
+    height: 200px;
+    margin-right: 30%;
+}
+
+main+section+section+section>section section{
+    width: 20%;
+    height: 100px;
+}
+
+
+/* fourth section */
+
+main+section+section+section+section{
+    text-align: center;
+}
+
+/* media query */
+@media all and (max-width:500px){
+    main>*,body>*,ul+section>img{
+        display: flex !important;
+        flex-flow: row wrap !important;
+        width: 100% !important;
+        height: fit-content !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
