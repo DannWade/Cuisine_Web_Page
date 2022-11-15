@@ -1,0 +1,33 @@
+/* main styles */
+*{
+    box-sizing: border-box;
+}
+
+main{
+    background-image:url(istockphoto-1032592064-1024x1024.jpg) ;
+    height: 600px;
+    background-position: 50%,0;
+    background-repeat: no-repeat;
+}
+
+
+nav, nav>ul{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav>ul{
+    flex-grow: .2;
+    align-items: center;
+    width: 60%;
+    list-style: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+}
+
+
