@@ -90,7 +90,8 @@ body main+section>section{
 h3{
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
+    color: rgb(255,118,111);
 }
 
 h2{
@@ -116,6 +117,67 @@ section>section button +button{
     border-radius: 0 5px 5px 0;
     width: 10%;
     background-color: rgb(228, 98, 107);
+}
+
+/* second section */
+
+main+section+section{
+    height: 700px;
+}
+
+main+section+section>section{
+    width: 80%;
+    margin: 10% auto;
+}
+
+main+section+section>section>h2, main+section+section>section>h3{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+main+section+section>section>h2{
+    font-size: 4em;
+}
+
+main+section+section>section>ul{
+    list-style: none;
+    width: 70%;
+    margin: 2% auto;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.breakfast,.lunch,.dinner,.dessert,.shake{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+main+section+section>section img{
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.menubutt{
+    background-color: rgba(0, 0, 255, 0.288);
+    width: 15%;
+    border-radius: 5px;
+    padding: 4px 5px;
+}
+
+.selectbutt{
+    background-color: red;
+}
+
+.hidden{
+    display: none;
+}
+
+main+section+section>section img{
+    width: 30%;
+    
 }
 
 
