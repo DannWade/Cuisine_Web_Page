@@ -310,6 +310,77 @@ main+section+section>section img{
     }
 }
 
+@media all and (max-width:250px){
+    body{
+        font-size: 10%;
+    }
+    nav a{
+        margin: 0 2px;
+    }
+
+    nav ul{
+        padding: 0;
+        width: 90%;
+    }
+
+    main{
+        background-size: 200%;
+        height: 200px !important;
+    }
+
+    .menubutton{
+        width: 90%;
+        padding: 2px;
+    }
+
+    .menubutt{
+        width: 17%;
+        padding: 2px 3px;
+    }
+    .menubutton+button{
+        padding: 2px;
+    }
+
+    section>section button+button {
+        width: 14%;
+    }
+
+    body>section{
+        height: 400px !important;
+    }
+
+    .secondsection ul{
+        padding: 0;
+        width: 100%;
+    }
+
+    .centerthirdsection{
+        height: 100px !important;
+    }
+
+    .callnow{
+        height: 30px;
+    }
+
+    .innerthirdsection{
+        height: 100px;
+    }
+
+    .secondsection{
+        height: 150px !important;
+    }
+
+    .fourthsection{
+        background-size: 300%;
+        background-repeat: no-repeat;
+        height: 270px !important;
+    }
+
+    .fourthsection p{
+        width: 50%;
+    }
+}
+
 
 
 
