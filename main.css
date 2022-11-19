@@ -329,7 +329,7 @@ main+section+section>section img{
     }
 
     .menubutton{
-        width: 90%;
+        width: 60%;
         padding: 2px;
     }
 
@@ -340,13 +340,19 @@ main+section+section>section img{
     .menubutton+button{
         padding: 2px;
     }
+    body main+section>section{
+        margin: 10% 0 0 30%;
+    }
+    .firstsection>section{
+        width: 60%;
+    }
 
     section>section button+button {
         width: 14%;
     }
 
     body>section{
-        height: 500px !important;
+        height: 400px !important;
     }
 
     .secondsection ul{
