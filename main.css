@@ -249,7 +249,7 @@ main+section+section>section img{
     padding: 0 0;
 }
 
-@media all and (max-width:400px){
+/* @media all and (max-width:400px){
     body{
         font-size: 10%;
     }
@@ -308,7 +308,7 @@ main+section+section>section img{
         background-size: 200%;
         background-repeat: no-repeat;
     }
-}
+} */
 
 /* @media all and (max-width:400px){
     body{
