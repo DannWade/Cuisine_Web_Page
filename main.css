@@ -310,7 +310,7 @@ main+section+section>section img{
     }
 }
 
-@media all and (max-width:250px){
+/* @media all and (max-width:400px){
     body{
         font-size: 10%;
     }
@@ -385,7 +385,7 @@ main+section+section>section img{
     .fourthsection p{
         width: 50%;
     }
-}
+} */
 
 
 
