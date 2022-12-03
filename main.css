@@ -302,7 +302,7 @@ main+section+section>section img{
     }
 
     .innerthirdsection{
-        height: 100px;
+        height: 150px !important;
     }
 
     .secondsection{
@@ -312,7 +312,7 @@ main+section+section>section img{
     .fourthsection{
         background-size: 300%;
         background-repeat: no-repeat;
-        height: 800px !important;
+        height: 600px !important;
     }
 }
 
