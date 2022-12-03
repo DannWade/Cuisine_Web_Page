@@ -272,7 +272,7 @@ main+section+section>section img{
     }
 
     .menubutt{
-        width: 17%;
+        width: 93%;
         padding: 2px 3px;
     }
     .menubutton+button{
@@ -284,7 +284,7 @@ main+section+section>section img{
     }
 
     .firstsection{
-        height: 700px !important;
+        height: 500px !important;
         background-size: 300% !important;
     }
 
