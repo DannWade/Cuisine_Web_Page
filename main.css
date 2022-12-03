@@ -10,7 +10,7 @@ body{
 main{
     background-image:url(istockphoto-1032592064-1024x1024.jpg) ;
     background-size: 1300px;
-    height: 600px;
+    height: 800px;
     background-position: 50%,0;
     background-repeat: no-repeat;
 }
@@ -72,7 +72,7 @@ main>section>ul{
 /* first section */
 
 .firstsection{
-    height: 600px;
+    height: 850px;
     background-image: url(istockphoto-1223136959-1024x1024.jpg);
     background-repeat: no-repeat;
     background-size: 1300px;
@@ -263,7 +263,7 @@ main+section+section>section img{
 
     main{
         background-size: 200%;
-        height: 200px !important;
+        height: 330px !important;
     }
 
     .menubutton{
