@@ -284,8 +284,8 @@ main+section+section>section img{
     }
 
     .firstsection{
-        height: 700px;
-        background-size: 300%;
+        height: 700px !important;
+        background-size: 300% !important;
     }
 
     .secondsection ul{
