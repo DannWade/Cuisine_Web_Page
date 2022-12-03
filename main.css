@@ -283,6 +283,10 @@ main+section+section>section img{
         height: 300px !important;
     }
 
+    .firstsection{
+        height: 500px;
+    }
+
     .secondsection ul{
         padding: 0;
         width: 100%;
