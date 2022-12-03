@@ -267,12 +267,12 @@ main+section+section>section img{
     }
 
     .menubutton{
-        width: 60%;
+        width: 93%;
         padding: 2px;
     }
 
     .menubutt{
-        width: 93%;
+        width: 60%;
         padding: 2px 3px;
     }
     .menubutton+button{
