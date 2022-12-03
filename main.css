@@ -272,8 +272,8 @@ main+section+section>section img{
     }
 
     .menubutt{
-        width: 60%;
-        padding: 2px 2px;
+        width: 60% !important;
+        padding: 2px 2px !important;
     }
     .menubutton+button{
         padding: 2px;
@@ -294,7 +294,7 @@ main+section+section>section img{
     }
 
     .centerthirdsection{
-        height: 100px !important;
+        height: 115px !important;
     }
 
     .callnow{
