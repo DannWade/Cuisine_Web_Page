@@ -262,7 +262,7 @@ main+section+section>section img{
     }
 
     main{
-        background-size: 200%;
+        background-size: 300%;
         height: 330px !important;
     }
 
@@ -305,8 +305,9 @@ main+section+section>section img{
     }
 
     .fourthsection{
-        background-size: 200%;
+        background-size: 300%;
         background-repeat: no-repeat;
+        height: 300px !important;
     }
 }
 
